@@ -1,6 +1,6 @@
-package boss.team.cusotmerservice.repositories;
+package boss.team.customerservice.repositories;
 
-import boss.team.cusotmerservice.entities.Customer;
+import boss.team.customerservice.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
