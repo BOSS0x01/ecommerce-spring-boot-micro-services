@@ -22,7 +22,7 @@ public class ProductItem {
     private int quantity;
     private String productId;
     @Transient
-    private Product customer;
+    private Product product;
     @ManyToOne
     private Bill bill;
 }
