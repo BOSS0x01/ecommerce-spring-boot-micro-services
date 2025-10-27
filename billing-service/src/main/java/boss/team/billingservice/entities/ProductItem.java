@@ -3,6 +3,7 @@ package boss.team.billingservice.entities;
 
 import boss.team.billingservice.models.Customer;
 import boss.team.billingservice.models.Product;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -24,5 +25,6 @@ public class ProductItem {
     @Transient
     private Product product;
     @ManyToOne
+    @JsonIgnore
     private Bill bill;
 }

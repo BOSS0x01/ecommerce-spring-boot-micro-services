@@ -23,6 +23,6 @@ public class Bill {
     @Transient
     private Customer customer;
     @OneToMany(mappedBy = "bill")
-    private List<ProductItem> productItem;
+    private List<ProductItem> productItems;
 
 }
